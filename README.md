@@ -35,7 +35,7 @@ Your solution will be evaluated based on the following criteria:
 * Include the predefined admin user credential in README File.
 * Ensure your submission is submitted within a maximum of 4 days after you receive the email.
 
-##Setup Instruction
+## Setup Instruction
 Open your terminal and write
 * git clone https://github.com/MarpisGG/fs-test/
 * composer install (Install Laravel)
