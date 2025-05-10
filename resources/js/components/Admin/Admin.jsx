@@ -3,7 +3,7 @@ import winniLogo from "../../../assets/img/winniLogo.png";
 import { useNavigate } from "react-router-dom";
 import AdminNavbar from "./AdminNavbar";
 
-function AddNewsForm() {
+function Admin() {
 const [formData, setFormData] = useState({ title: "", content: "", file: null });
   const [blogs, setBlogs] = useState([]);
   const [isAuthorized, setIsAuthorized] = useState(false);
@@ -237,4 +237,4 @@ const [formData, setFormData] = useState({ title: "", content: "", file: null })
   );
 }
 
-export default AddNewsForm;
+export default Admin;
