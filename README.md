@@ -53,4 +53,4 @@ Open your terminal and write
 ## Postman Documentation link
 
 
-https://web.postman.co/workspace/My-Workspace~14b3a826-d151-4847-8441-a52d19c6faab/collection/40252015-0f1cc1d5-d5ec-4858-ac3c-1057a7afb5a7?action=share&creator=40252015
+ https://www.postman.com/cryosat-participant-56074506/my-workspace/collection/r6ulptb/blog-api-documentation
