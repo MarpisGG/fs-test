@@ -37,16 +37,16 @@ Your solution will be evaluated based on the following criteria:
 
 ##Setup Instruction
 Open your terminal and write
-   a. git clone https://github.com/MarpisGG/fs-test/
-   b. composer install (Install Laravel)
-   c. cp .env.example .env (Create .env file)
-   d. php artisan key:generate(Generate app key)
-   e. php artisan migrate (Run migration)
-   f. npm install (Install React)
-   g. npm run dev (to run frontend/ReactJS)
-   f. php artisan serve (To run backend/Laravel)
+*   a. git clone https://github.com/MarpisGG/fs-test/
+*   b. composer install (Install Laravel)
+*   c. cp .env.example .env (Create .env file)
+*   d. php artisan key:generate(Generate app key)
+*   e. php artisan migrate (Run migration)
+*   f. npm install (Install React)
+*   g. npm run dev (to run frontend/ReactJS)
+*   f. php artisan serve (To run backend/Laravel)
 
 ##Admin Credential
-gmail : admin@gmail.com
-password : @dm1n123_
+* gmail : admin@gmail.com
+* password : @dm1n123_
 
