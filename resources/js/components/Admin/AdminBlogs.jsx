@@ -99,9 +99,9 @@ function AdminBlogs() {
                       <td className="px-4 py-3">{Blog.title}</td>
                       <td className="px-4 py-3">{Blog.content}</td>
                       <td className="px-4 py-3">
-                        {Blog.file ? (
+                        {Blog.image ? (
                           <a
-                            href={`http://localhost:8000/storage/${Blog.image}`}
+                            href={`${Blog.image}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-600 hover:underline"

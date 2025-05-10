@@ -22,3 +22,7 @@ Route::get('/api/blog/{slug}', [blogController::class, 'show']); // Menampilkan 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/{pathMatch}', function () {
+    return view('welcome');
+})->where('pathMatch', '.*');

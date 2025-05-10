@@ -30,7 +30,7 @@ function AdminNavbar() {
                     <Link to="/admin" className="hover:underline">
                         Add Blog
                     </Link>
-                    <Link to="/adminmessages" className="hover:underline">
+                    <Link to="/adminblogs" className="hover:underline">
                         Show All Blog
                     </Link>
                     <Link to="/" className="hover:underline">
