@@ -17,8 +17,6 @@ Route::delete('/api/blog/{id}', [BlogController::class, 'destroy']); // Delete b
 Route::put('/api/blog/{id}', [BlogController::class, 'update']); // Update blog post using PUT 
 Route::post('/api/blog/{id}', [BlogController::class, 'update']); // Add this route to handle form POST with _method=PUT
 Route::get('/api/blog/{slug}', [blogController::class, 'show']); // Menampilkan pesan berdasarkan slug
-
-
 Route::get('/', function () {
     return view('welcome');
 });

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function landing() {
+export default function BlogListing() {
   const [allPosts, setAllPosts] = useState([]);
   const [displayed, setDisplayed] = useState([]);
   const [search, setSearch] = useState("");
